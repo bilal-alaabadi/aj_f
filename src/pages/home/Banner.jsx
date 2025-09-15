@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import timings from "../../assets/03.png";
+import timings from "../../assets/بنر-متجر-01.png";
 
 const Banner = () => {
 
@@ -13,11 +13,12 @@ const Banner = () => {
             <div className="mt-8">
                 <Link to="/shop">
                 
-                <img 
-                    src={timings}
-                    alt="صورة البانر"
-                    className="w-full h-auto object-contain max-w-[100%] mx-auto"
-                />
+<img 
+  src={timings}
+  alt="صورة البانر"
+  className="w-full h-[150px] object-cover max-w-[100%] mx-auto"
+/>
+
                 </Link>
             </div>
         </div>

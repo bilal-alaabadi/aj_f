@@ -8,6 +8,8 @@ import { useNavigate } from 'react-router-dom';
 const categories = [
     { label: 'أختر منتج', value: '' },
     { label: 'عطر', value: 'عطر' },
+    { label: 'مرشات المفارش و العبايات', value: 'مرشات المفارش و العبايات' },
+    { label: 'بخور', value: 'بخور' },
    
 ];
 const sizes = [
